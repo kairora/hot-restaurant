@@ -1,0 +1,29 @@
+h1, .lead, .tableNum {
+    text-align: center;
+    
+}
+h1 {
+  color: rgb(121, 14, 14);  
+}
+
+h1 i {
+    color:  orangered;
+}
+.jumbotron {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableNum {
+    font-size: 30px;
+}
+
+/* body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* .btn {
+    align-items: center;
+} */

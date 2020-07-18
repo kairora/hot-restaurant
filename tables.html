@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c502137733.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4 font-weight-bold"><i class="fa fa-fire" aria-hidden="true"></i>
+            Hot Restaurant!</h1>
+        <p class="lead">This is a simple CLI app to handle restaurant requests</p>
+        <hr class="my-4">
+        <p class="tableNum">It uses utility classes for typography and spacing to space content out within the larger
+            container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-home" aria-hidden="true"></i>
+            Home</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button"><i class="fa fa-user-plus" aria-hidden="true"></i>
+            Make Reservation</a>
+    </div>
+
+    <div class="card">
+        <h5 class="card-header">Current Reservations</h5>
+        <div class="card-body">
+            <p class="card-text currentReservations"></p>
+
+        </div>
+
+        <div class="card">
+            <h5 class="card-header">Waiting List</h5>
+            <div class="card-body">
+                <p class="card-text waitingList"></p>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>Control Panel</p>
+        <p><a href="#">Clear Table</a> | <a href="#">API Table Link</a> | <a href="#">API Wait List</a></p>
+    </div>
+
+</body>
+
+</html>
